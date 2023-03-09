@@ -1,0 +1,16 @@
+{
+  "name": "cors-proxy",
+  "version": "1.0.0",
+  "description": "A proxy which will allow testing of dev apis with ledger-ui",
+  "main": "index.js",
+  "author": "Sanjeet K",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "http-proxy": "^1.18.1"
+  }
+}
